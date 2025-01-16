@@ -1,0 +1,3 @@
+# Unexpected Return Value in Function with Equality Check
+
+This repository demonstrates a common JavaScript bug involving incorrect return statements within conditional logic. The function `foo` aims to add two numbers, but it returns `true` when the inputs are equal, rather than their sum or a different suitable value. This behavior can lead to unexpected results if the function is used in a context where both numerical and boolean values are handled without proper type checking.
